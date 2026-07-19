@@ -121,13 +121,13 @@ Q.moderate_plan_adopted = 0;
 // organizations
 
 // inter-party relations
-Q.z_relation = 50;
-Q.kpd_relation = 25;
-Q.ddp_relation = 60;
-Q.dvp_relation = 35;
+Q.bf_relation = 60;
+Q.rkp_relation = 40;
+Q.rlrp_relation = 60;
+Q.lcpr_relation = 35;
 // DNVP and NSDAP are invariably hostile
-Q.dnvp_relation = 5;
-Q.nsdap_relation = 0;
+Q.rnkp_relation = 5;
+Q.npf_relation = 0;
 Q.lvp_relation = 0;
 
 Q.kpd_leader = "Thälmann";
@@ -248,8 +248,8 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
-Q.parties_graph = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.parties = ['rnu', 'rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
+Q.parties_graph =  ['rnu', 'rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
 
 Q.sapd_formed = 0;
 Q.dnf_formed = 0;
@@ -260,58 +260,58 @@ Q.cvp_formed = 0;
 
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
-Q.workers_spd = 55;
-Q.workers_kpd = 22;
-Q.workers_z = 5;
-Q.workers_ddp = 2;
-Q.workers_dvp = 0;
-Q.workers_dnvp = 6;
-Q.workers_nsdap = 0;
+Q.workers_rnu = 55;
+Q.workers_rkp = 22;
+Q.workers_bf = 5;
+Q.workers_rlrp = 2;
+Q.workers_lcpr = 0;
+Q.workers_rnkp = 6;
+Q.workers_npf = 0;
 Q.workers_other = 10;
 
-Q.new_middle_spd = 8;
-Q.new_middle_kpd = 1;
-Q.new_middle_z = 10;
-Q.new_middle_ddp = 23;
-Q.new_middle_dvp = 22;
-Q.new_middle_dnvp = 10;
-Q.new_middle_nsdap = 4;
+Q.new_middle_rnu = 8;
+Q.new_middle_rkp = 1;
+Q.new_middle_bf = 10;
+Q.new_middle_rlrp = 23;
+Q.new_middle_lcpr = 22;
+Q.new_middle_rnkp = 10;
+Q.new_middle_npf = 4;
 Q.new_middle_other = 22;
 
-Q.old_middle_spd = 4;
-Q.old_middle_kpd = 0;
-Q.old_middle_z = 6;
-Q.old_middle_ddp = 10;
-Q.old_middle_dvp = 27;
-Q.old_middle_dnvp = 24;
-Q.old_middle_nsdap = 9;
+Q.old_middle_rnu = 4;
+Q.old_middle_rkp = 0;
+Q.old_middle_bf = 6;
+Q.old_middle_rlrp = 10;
+Q.old_middle_lcpr = 27;
+Q.old_middle_rnkp = 24;
+Q.old_middle_npf = 9;
 Q.old_middle_other = 20;
 
-Q.rural_spd = 9;
-Q.rural_kpd = 0;
-Q.rural_z = 5;
-Q.rural_ddp = 4;
-Q.rural_dvp = 15;
-Q.rural_dnvp = 46;
-Q.rural_nsdap = 3;
+Q.rural_rnu = 9;
+Q.rural_rkp = 0;
+Q.rural_bf = 5;
+Q.rural_rlrp = 4;
+Q.rural_lcpr = 15;
+Q.rural_rnkp = 46;
+Q.rural_npf = 3;
 Q.rural_other = 16;
 
-Q.unemployed_spd = 21;
-Q.unemployed_kpd = 50;
-Q.unemployed_z = 1;
-Q.unemployed_ddp = 0;
-Q.unemployed_dvp = 0;
-Q.unemployed_dnvp = 4;
-Q.unemployed_nsdap = 13;
+Q.unemployed_rnu = 21;
+Q.unemployed_rkp = 50;
+Q.unemployed_bf = 1;
+Q.unemployed_rlrp = 0;
+Q.unemployed_lcpr = 0;
+Q.unemployed_rnkp = 4;
+Q.unemployed_npf = 13;
 Q.unemployed_other = 7;
 
-Q.catholics_spd = 21;
-Q.catholics_kpd = 2;
-Q.catholics_z = 49;
-Q.catholics_ddp = 0;
-Q.catholics_dvp = 5;
-Q.catholics_dnvp = 5;
-Q.catholics_nsdap = 0;
+Q.catholics_rnu = 21;
+Q.catholics_rkp = 2;
+Q.catholics_bf = 49;
+Q.catholics_rlrp = 0;
+Q.catholics_lcpr = 5;
+Q.catholics_rnkp = 5;
+Q.catholics_npf = 0;
 Q.catholics_other = 16;
 
 Q.workers_spd_old = 60;
