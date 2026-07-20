@@ -249,7 +249,7 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['rnu','su,'rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
+Q.parties = ['rnu','su','rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
 Q.parties_graph =  ['rnu', 'su','rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
 
 Q.sapd_formed = 0;
