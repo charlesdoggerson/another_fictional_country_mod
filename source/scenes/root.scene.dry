@@ -122,6 +122,7 @@ Q.moderate_plan_adopted = 0;
 
 // inter-party relations
 Q.bf_relation = 60;
+Q.su_relation = 80;
 Q.rkp_relation = 40;
 Q.rlrp_relation = 60;
 Q.lcpr_relation = 35;
@@ -248,8 +249,8 @@ Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
 Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['rnu', 'rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
-Q.parties_graph =  ['rnu', 'rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
+Q.parties = ['rnu','su,'rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
+Q.parties_graph =  ['rnu', 'su','rkp', 'bf', 'rlrp', 'lcpr', 'rnkp', 'npf', 'other'];
 
 Q.sapd_formed = 0;
 Q.dnf_formed = 0;
@@ -261,6 +262,7 @@ Q.cvp_formed = 0;
 // Support for party by social group
 // they don't have to sum to 100 since the electoral calculations will be normalized.
 Q.workers_rnu = 55;
+Q.workers_su = 10;
 Q.workers_rkp = 22;
 Q.workers_bf = 5;
 Q.workers_rlrp = 2;
@@ -270,6 +272,7 @@ Q.workers_npf = 0;
 Q.workers_other = 10;
 
 Q.new_middle_rnu = 8;
+Q.new_middle_su = 1;
 Q.new_middle_rkp = 1;
 Q.new_middle_bf = 10;
 Q.new_middle_rlrp = 23;
@@ -279,6 +282,7 @@ Q.new_middle_npf = 4;
 Q.new_middle_other = 22;
 
 Q.old_middle_rnu = 4;
+Q.old_middle_su = 0;
 Q.old_middle_rkp = 0;
 Q.old_middle_bf = 6;
 Q.old_middle_rlrp = 10;
@@ -288,16 +292,18 @@ Q.old_middle_npf = 9;
 Q.old_middle_other = 20;
 
 Q.rural_rnu = 9;
+Q.rural_su = 2;
 Q.rural_rkp = 0;
-Q.rural_bf = 5;
+Q.rural_bf = 56;
 Q.rural_rlrp = 4;
-Q.rural_lcpr = 15;
-Q.rural_rnkp = 46;
+Q.rural_lcpr = 10;
+Q.rural_rnkp = 10;
 Q.rural_npf = 3;
 Q.rural_other = 16;
 
 Q.unemployed_rnu = 21;
 Q.unemployed_rkp = 50;
+Q.unemployed_su = 10;
 Q.unemployed_bf = 1;
 Q.unemployed_rlrp = 0;
 Q.unemployed_lcpr = 0;
@@ -307,10 +313,11 @@ Q.unemployed_other = 7;
 
 Q.catholics_rnu = 21;
 Q.catholics_rkp = 2;
-Q.catholics_bf = 49;
+Q.catholics_su = 2;
+Q.catholics_bf = 5;
 Q.catholics_rlrp = 0;
 Q.catholics_lcpr = 5;
-Q.catholics_rnkp = 5;
+Q.catholics_rnkp = 49;
 Q.catholics_npf = 0;
 Q.catholics_other = 16;
 
@@ -328,6 +335,7 @@ Q.catholics_spd_old = 20;
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
 Q.rnu_r = 26.5;
+Q.su_r = 5.5;
 Q.rkp_r = 9.1;
 Q.bf_r = 17.8;
 Q.rlrp_r = 6.5;
